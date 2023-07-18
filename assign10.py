@@ -361,15 +361,15 @@ def heart():
 # Uncomment this code when you have everything implemented and you
 # want to solve some of the sample problems!
 
-# problem = problem2()
-# print("Starting board:")
-# print(problem)
-#
-# start_time = time.time()
-# solutions = dfs(problem)
-# search_time = time.time()-start_time
-#
-# print("Search took " + str(round(search_time, 2)) + " seconds")
-# print("There was " + str(len(solutions)) + " solution.\n\n")
-# if len(solutions) > 0:
-#     print(solutions[0])
+problem = problem2()
+print("Starting board:")
+print(problem)
+
+start_time = time.time()
+solutions = dfs(problem)
+search_time = time.time()-start_time
+
+print("Search took " + str(round(search_time, 2)) + " seconds")
+print("There was " + str(len(solutions)) + " solution.\n\n")
+if len(solutions) > 0:
+    print(solutions[0])

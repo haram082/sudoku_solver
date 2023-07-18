@@ -26,3 +26,6 @@ If all numbers lead to conflicts, backtrack to the previous cell and try the nex
 Repeat steps 2-4 until a solution is found or it is determined that no solution exists.
 The algorithm uses recursion to keep track of the current state of the puzzle and to backtrack when necessary. When the algorithm reaches a dead end (i.e., it cannot find a valid number for a cell), it backtracks to the previous cell and tries the next number there. This process continues until a solution is found or it is determined that no solution exists.
 
+# Solved Example
+![sudoku](solved.png)
+
